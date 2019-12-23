@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #343a40;
+  color: #455a64;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
@@ -127,7 +127,7 @@ p {
 }
 
 .bg-soft-primary {
-  background-color: rgba(47, 85, 212, 0.1) !important;
+  background-color: rgba(211, 47, 47, 0.1) !important; /*#d32f2f en rgb y opacidad*/
 }
 
 .text-primary {
@@ -810,7 +810,7 @@ p {
     4.Hero section
 *******************/
 .hero-section {
-  padding-top: 275px;
+  padding-top: 130px;
   overflow: hidden;
 }
 
@@ -979,7 +979,7 @@ p {
     8.Footer
 *******************/
 .footer {
-  background-color: #0f1b42;
+  background-color: #607d8b;
   color: rgba(255, 255, 255, 0.5);
   padding-top: 80px;
   padding-bottom: 40px;
