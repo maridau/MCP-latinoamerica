@@ -16,6 +16,15 @@ File: Main scss file
 ********************************/
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap");
 /*******************
+    0.Anexo
+*******************/
+.owl-next{
+  background-color: red;
+}
+
+
+
+/*******************
     1.General
 *******************/
 body {
@@ -864,54 +873,102 @@ p {
   color: #ffffff;
   font-size: 17px;
 }
-
 /******************
-    5.Testimonial
+    5.1 Carousel Dream cup
 *******************/
-.testi-carousel .owl-nav {
+.dream-cup-carousel .owl-nav {
   position: absolute;
   top: -67px;
   right: 0;
   margin-top: 0px;
 }
 
-.testi-carousel .owl-nav button {
+.dream-cup-carousel .owl-nav button {
   outline: 0;
   border-radius: 50% !important;
 }
 
-.testi-carousel .owl-nav button span {
+.dream-cup-carousel .owl-nav button span {
   display: inline-block;
   width: 32px;
   height: 32px;
   line-height: 32px;
-  background: rgba(47, 85, 212, 0.2);
-  color: #2f55d4;
+  background: rgba(69, 90, 100, 0.2);  /*#455a64 en rgb y con opacidad*/
+  color: #d32f2f;
   border-radius: 50%;
   font-size: 20px;
 }
 
-.testi-carousel .owl-nav button:hover span {
-  background: #2f55d4;
+.dream-cup-carousel .owl-nav button:hover span {
+  background: #d32f2f;
   color: #ffffff;
 }
 
-.testi-carousel .owl-item {
+.dream-cup-carousel .owl-item {
   padding: 0px 10px;
 }
 
-.testi-carousel .owl-dots .owl-dot:focus {
+.dream-cup-carousel .owl-dots .owl-dot:focus {
   outline: 0;
 }
 
-.testi-carousel .owl-dots .owl-dot span {
-  background: rgba(47, 85, 212, 0.2);
+.dream-cup-carousel .owl-dots .owl-dot span {
+  background: rgba(69, 90, 100, 0.2);  /*#455a64 en rgb y con opacidad*/
   border: 2px solid transparent;
 }
 
-.testi-carousel .owl-dots .owl-dot.active span, .testi-carousel .owl-dots .owl-dot:hover span {
+.dream-cup-carousel .owl-dots .owl-dot.active span, .dream-cup-carousel .owl-dots .owl-dot:hover span {
   background: #ffffff;
-  border: 2px solid #2f55d4;
+  border: 2px solid #d32f2f;
+}
+
+/******************
+    5.Testimonial
+*******************/
+.mcp-carousel .owl-nav {
+  position: absolute;
+  top: -67px;
+  right: 0;
+  margin-top: 0px;
+}
+
+.mcp-carousel .owl-nav button {
+  outline: 0;
+  border-radius: 50% !important;
+}
+
+.mcp-carousel .owl-nav button span {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  background: rgba(69, 90, 100, 0.2);  /*#455a64 en rgb y con opacidad*/
+  color: #d32f2f;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.mcp-carousel .owl-nav button:hover span {
+  background: #d32f2f;
+  color: #ffffff;
+}
+
+.mcp-carousel .owl-item {
+  padding: 0px 10px;
+}
+
+.mcp-carousel .owl-dots .owl-dot:focus {
+  outline: 0;
+}
+
+.mcp-carousel .owl-dots .owl-dot span {
+  background: rgba(69, 90, 100, 0.2);  /*#455a64 en rgb y con opacidad*/
+  border: 2px solid transparent;
+}
+
+.mcp-carousel .owl-dots .owl-dot.active span, .mcp-carousel .owl-dots .owl-dot:hover span {
+  background: #ffffff;
+  border: 2px solid #d32f2f;
 }
 
 /********** Clients ***********/
@@ -1050,9 +1107,9 @@ p {
   }
 }
 
-@media (max-width: 575.98px) {
+/*@media (max-width: 575.98px) {
   .testi-carousel .owl-nav {
     display: none;
   }
-}
+}*/
 /*# sourceMappingURL=style.css.map */

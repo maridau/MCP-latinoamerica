@@ -38,7 +38,31 @@
     },
 
     Invoza.prototype.initTesticarousel = function() {
-        $('#testi-carousel').owlCarousel({
+        $('#dream-cup-carousel').owlCarousel({
+            items: 1,
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                576:{
+                    items:2
+                },
+     
+            }
+        });
+        $('#dream-kiosk-carousel').owlCarousel({
+            items: 1,
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                576:{
+                    items:2
+                },
+     
+            }
+        });
+        $('#dynamic-kiosk-carousel').owlCarousel({
             items: 1,
             loop:true,
             margin:10,
