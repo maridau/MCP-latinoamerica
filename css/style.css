@@ -816,7 +816,7 @@ p {
 }
 
 /******************
-    4.Hero section
+    4.Home section
 *******************/
 .hero-section {
   padding-top: 130px;
@@ -923,7 +923,7 @@ p {
 }
 
 /******************
-    5.Testimonial
+    5.Productos
 *******************/
 .mcp-carousel .owl-nav {
   position: absolute;
@@ -1018,7 +1018,7 @@ p {
 }
 
 /******************
-    7.Subscribe
+    7.Contacto
 *******************/
 .subscribe .form-control {
   height: 46px;
@@ -1030,6 +1030,34 @@ p {
 
 .subscribe .form-control:focus {
   border-color: #2f55d4;
+}
+
+.a-contacto:link {
+  color: #455a64;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+/* visited link */
+.a-contacto:visited {
+  color: #455a64;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+/* mouse over link */
+.a-contacto:hover {
+  color: #f44336;
+  font-family: "Rubik", sans-serif;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+/* selected link */
+.a-contacto:active {
+  color: #455a64;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
 }
 
 /******************
