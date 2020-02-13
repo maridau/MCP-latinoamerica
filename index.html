@@ -570,18 +570,18 @@
                             <p class="text-muted mb-2 font-13 text-uppercase">¿Querés saber más?</p>
                             <h5 class="form-title mb-4">¡Escribinos!</h5>
                         </div>
-                        <form class="registration-form">
+                        <form class="registration-form" action="send.php" method="POST">
                             <div class="form-group mb-4">
                                 <label class="font-15">Nombre*</label>
-                                <input type="text" class="form-control" id="name" placeholder="">
+                                <input id="myName" name="myName" type="text" maxlength="50" required type="text" autofocus class="form-control"  placeholder="">
                             </div>
                             <div class="form-group mb-4">
                                 <label class="font-15">Email*</label>
-                                <input type="email" class="form-control" id="email" placeholder="">
+                                <input id="myEmail" name="myEmail" type="email" class="form-control" name="myEmail" required placeholder="" >
                             </div>
                             <div class="form-group mb-3">
                                 <label class="font-15">Mensaje*</label>
-                                <textarea type="text" class="form-control" id="message" placeholder=""></textarea>
+                                <textarea id="myMessage" name="myMessage" type="text" maxlength="200" required  class="form-control" placeholder=""></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary btn-block">Enviar <i
                                     class="mdi mdi-telegram ml-2"></i></button>
