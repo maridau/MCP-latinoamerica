@@ -819,8 +819,11 @@ p {
     4.Home section
 *******************/
 .hero-section {
-  padding-top: 130px;
+  padding-top: 100px;
   overflow: hidden;
+}
+#headerTxt{
+  padding-top: 120px;
 }
 
 .home-img {
@@ -856,6 +859,9 @@ p {
 /*--- Hero 5 ---*/
 .hero-section-5 {
   padding: 300px 0px 220px 0px;
+}
+#callToActionMobile{
+  display: none;
 }
 
 .play-icon-circle {
@@ -1088,6 +1094,11 @@ p {
   color: rgba(255, 255, 255, 0.9);
 }
 
+
+#callToAction2{
+  display: none;
+}
+
 /******************
     9.Responsive
 *******************/
@@ -1125,14 +1136,59 @@ p {
     color: rgba(52, 58, 64, 0.9);
   }
   .hero-section {
-    padding-top: 130px;
+    padding-top: 100px;
+  }
+  #headerTxt{
+    padding-top: 0px;
   }
 }
 
 @media (max-width: 767.98px) {
   .hero-title {
-    font-size: 32px;
+    font-size: 28px;
   }
+  .hero-section {
+    padding-top: 80px;
+  }
+  #headerTxt{
+    padding-top: 0px;
+  }
+  #callToActionHeader{
+    display: none;
+  }
+
+  ul {
+    padding-inline-start: 5px;
+}
+
+.firstUl {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.btn {
+  font-size: .8rem;
+  padding: 0.5rem 1.0rem;
+  font-weight: 500;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  border-radius: 7px;
+}
+.p-4 {
+  padding: 0.8rem!important;
+}
+
+.card-body.p-4 {
+  padding: 0rem!important;
+}
+.mt-3, .my-3 {
+  margin-top: 0rem!important;
+}
+.section {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+ 
 }
 
 /*@media (max-width: 575.98px) {
